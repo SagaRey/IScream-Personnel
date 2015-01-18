@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/util
+END
+DBUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/util/DBUtil.java
+END
+PagingUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/util/PagingUtil.java
+END
+CommUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/util/CommUtil.java
+END
+DAOSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/util/DAOSupport.java
+END
+CharacterEncodingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/util/CharacterEncodingFilter.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/IScream/!svn/ver/237/personnel/src/com/iscream/dao
+END
+DepartmentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IScream/!svn/ver/207/personnel/src/com/iscream/dao/DepartmentDAO.java
+END
+ManagementDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IScream/!svn/ver/183/personnel/src/com/iscream/dao/ManagementDAO.java
+END
+DimissionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IScream/!svn/ver/203/personnel/src/com/iscream/dao/DimissionDAO.java
+END
+ProbationaryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IScream/!svn/ver/208/personnel/src/com/iscream/dao/ProbationaryDAO.java
+END
+TalentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IScream/!svn/ver/209/personnel/src/com/iscream/dao/TalentDAO.java
+END
+EmployeeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IScream/!svn/ver/243/personnel/src/com/iscream/dao/EmployeeDAO.java
+END
+MobilizeDepDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IScream/!svn/ver/245/personnel/src/com/iscream/dao/MobilizeDepDAO.java
+END
+PostDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IScream/!svn/ver/206/personnel/src/com/iscream/dao/PostDAO.java
+END
+MobilizePostDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IScream/!svn/ver/208/personnel/src/com/iscream/dao/MobilizePostDAO.java
+END

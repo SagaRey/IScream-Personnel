@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>jdbc/PersonnelDB</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<filter>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<filter-class>com.iscream.util.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>ChangeintoExcelServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.ChangeintoExcelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeintoExcelServlet</servlet-name>
+		<url-pattern>/toexcelservlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ManagementServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.ManagementServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManagementServlet</servlet-name>
+		<url-pattern>/managementservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DepartmentServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.DepartmentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DepartmentServlet</servlet-name>
+		<url-pattern>/departmentservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DimissionServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.DimissionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DimissionServlet</servlet-name>
+		<url-pattern>/dimissionservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.EmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/employeeservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MobilizeDepServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.MobilizeDepServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MobilizeDepServlet</servlet-name>
+		<url-pattern>/mobilizedepservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MobilizePostServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.MobilizePostServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MobilizePostServlet</servlet-name>
+		<url-pattern>/mobilizepostservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ProbationaryServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.ProbationaryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProbationaryServlet</servlet-name>
+		<url-pattern>/probationaryservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PostServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.PostServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PostServlet</servlet-name>
+		<url-pattern>/postservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TalentServlet</servlet-name>
+		<servlet-class>com.iscream.servlet.TalentServlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>TalentServlet</servlet-name>
+		<url-pattern>/talentservlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
